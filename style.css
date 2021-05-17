@@ -1,0 +1,79 @@
+* {
+    /* Ph?n chung cho t?t c? các class trong body */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    /* vì height chua xác d?nh nên d? auto */
+    background-color:#b4c4bc;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 50px;
+    /* vì ? dây container c?a mình dang margin left right là 10% nên width còn l?i là 60% */
+    /* margin-left là cách bên trái  */
+    /* margin-right lad cách bên ph?i  */
+    /* margin top la cách top tuong t? có margin bottom là cách phía du?i */
+}
+.container-form{
+    /* ph?n chính d? chua các input  */
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    /* height dang là auto vì mình ko bi?t du?c chua bao nhiêu th? input nên c? d?t auto */
+   padding-top: 20px;
+   padding-bottom: 20px;
+   
+  
+}
+.header-name-form{
+    /* c? ch? */
+    font-size: 24px; 
+    text-align: center;
+   
+    /* can ch? vô gi?a  ch? dùng v?i các th? p h1,h2.... */
+}
+
+.container-form-input{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+}
+.input-from{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    /* làm cong m?y cái g?cs */
+    outline: none;
+    border: none;
+    /* cái viên ngoài c?a nó :none có nghia là ko có , có r?t nhieuf lo?i ... */
+    /* khác v?i margin ,padding là thu?c vào nhung v? trí nó v?n ? dó */
+    padding-left: 15px;
+    
+}
+.submit-layout{
+    width:100%;
+    height: 100px;
+   
+}
+.input-submit{
+    /* css là cho th? có tên class là input-submit */
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(0, 26, 255);
+    /* màu n?n c?a th? input */
+    color:white;
+    /* màu ch? */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    float:right;
+}
